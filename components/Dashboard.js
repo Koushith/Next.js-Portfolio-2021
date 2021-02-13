@@ -1,15 +1,13 @@
 import React from 'react';
+import Menu from './Menu';
+import Heading from './Profile';
 import Content from './Content';
-import NotConnected from './NotConnected';
+import Footer from './Footer';
 
-
-const Dashboard = ({ toggleDarkMode,idx, user, userData }) => {
+const Dashboard = ({ toggleDarkMode }) => {
   return (
     <>
-      {
-        user ? <Content idx={idx} user={user} userData={userData}/> :
-        <NotConnected />
-      }
+      <Content />
     </>
   );
 };
