@@ -61,9 +61,12 @@ const Profile = () => {
             the only thing I knew about computers was that it was invented by a
             guy named Charles or something..From there, I have taught myself
             everything. I'm still learning. I still have to Google the basic
-            stuff like adding inline CSS in HTML :p. I'm currently buidling some
-            cool stuffs at
-            <b> Consenso Labs</b>.
+            stuff like adding inline CSS in HTML :p.
+            <Text>
+              {' '}
+              I'm currently buidling some cool stuffs at
+              <b> Consenso Labs</b>.
+            </Text>
           </p>
         </p>
       </div>
