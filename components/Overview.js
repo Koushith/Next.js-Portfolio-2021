@@ -61,6 +61,9 @@ const useStyles = makeStyles((ui) => ({
   intro: {
     marginTop: 57,
   },
+  actionBtn: {
+    marginTop: '20px !important',
+  },
   actions: {
     marginRight: 6,
   },
@@ -78,7 +81,7 @@ function Overview() {
           Decentralized Apps at <b>Consenso Labs.</b>
         </Text>
       </div>
-      <div>
+      <div className={classes.actionBtn}>
         <Button type='secondary' auto className={classes.actions}>
           See my Projects
         </Button>
