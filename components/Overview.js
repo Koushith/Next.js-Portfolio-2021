@@ -60,9 +60,12 @@ const useStyles = makeStyles((ui) => ({
   },
   intro: {
     marginTop: 57,
+    introText: {
+      marginTop: 12,
+    },
   },
   actionBtn: {
-    marginTop: '20px !important',
+    marginTop: '30px !important',
   },
   actions: {
     marginRight: 6,
@@ -75,7 +78,7 @@ function Overview() {
     <div className={classes.content}>
       <div className={classes.intro}>
         <Text h2>Hey, I’m Koushith Amin</Text>
-        <Text p>
+        <Text p className={classes.introText}>
           I’m a Frontend Engineer and UI designer, Living in Bengaluru. i’m
           currently building next generation <br />
           Decentralized Apps at <b>Consenso Labs.</b>
@@ -83,7 +86,7 @@ function Overview() {
       </div>
       <div className={classes.actionBtn}>
         <Button type='secondary' auto className={classes.actions}>
-          See my Projects
+          See My Projects
         </Button>
         <Button auto className={classes.actions}>
           Download Resume
