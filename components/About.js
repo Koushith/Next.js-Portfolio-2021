@@ -54,14 +54,20 @@ const Profile = () => {
             <p>WTF? Sound human Koushith. Okay, here you go.</p> Huh, so you're
             interested in knowing more about me? The first thing I should
             mention that I don't have any unique talents. I consider myself
-            pretty average. My two life principles are - don't give up and work
-            really hard in the right direction. That's how I have achieved
-            whatever you see so far. Born in a small town in Kodagu known as
-            (Coorg- Scotland of India), I have humble beginnings. Until 2016,
-            the only thing I knew about computers was that it was invented by a
-            guy named Charles or something..From there, I have taught myself
-            everything. I'm still learning. I still have to Google the basic
-            stuff like adding inline CSS in HTML :p.
+            pretty average.
+            <p>
+              <b> My two life principles are -</b>
+            </p>
+            <ul>
+              <li>Don't give up</li>
+              <li>work really hard in the right direction.</li>
+            </ul>
+            That's how I have achieved whatever you see so far. Born in a small
+            town in Kodagu known as (Coorg- Scotland of India), I have humble
+            beginnings. Until 2016, the only thing I knew about computers was
+            that it was invented by a guy named Charles or something..From
+            there, I have taught myself everything. I'm still learning. I still
+            have to Google the basic stuff like adding inline CSS in HTML :p.
             <Text>
               {' '}
               I'm currently buidling some cool stuffs at
