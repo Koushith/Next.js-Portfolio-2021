@@ -63,9 +63,9 @@ const Profile = () => {
               <li>work really hard in the right direction.</li>
             </ul>
             That's how I have achieved whatever you see so far. Born in a small
-            town in Kodagu known as (Coorg- Scotland of India), I have humble
-            beginnings. Until 2016, the only thing I knew about computers was
-            that it was invented by a guy named Charles or something..From
+            Village in Kodagu also known as (Coorg- Scotland of India), I have
+            humble beginnings. Until 2016, the only thing I knew about computers
+            was that it was invented by a guy named Charles or something..From
             there, I have taught myself everything. I'm still learning. I still
             have to Google the basic stuff like adding inline CSS in HTML :p.
             <Text>
