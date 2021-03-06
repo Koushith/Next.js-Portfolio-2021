@@ -1,13 +1,3 @@
-# Todo's
-
-- [x] Add basic layout
-- [x] Home Page
-- [x] About Page
-- [ ] Blog Page -doing
-- [ ] Reading
-- [ ] Add Ghost CMS
-- [ ] Responsiveness
-
 # Next.js demo for Geist UI React
 
 ## About
