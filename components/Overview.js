@@ -72,14 +72,14 @@ const useStyles = makeStyles((ui) => ({
   },
 }));
 
-function Content() {
+function Overview() {
   const classes = useStyles();
   return (
     <div className={classes.content}>
       <div className={classes.intro}>
         <Text h2>Hey, I’m Koushith Amin</Text>
         <Text p className={classes.introText}>
-          I’m a Frontend Engineer and UI designer, Living in Bengaluru. i’m
+          I’m a Frontend Engineer and UI designer, Living in Bengaluru.
           currently building next generation <br />
           Decentralized Apps at <b>Consenso Labs.</b>
         </Text>
@@ -96,4 +96,4 @@ function Content() {
   );
 }
 
-export default Content;
+export default Overview;

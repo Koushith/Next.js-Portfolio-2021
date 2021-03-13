@@ -41,40 +41,37 @@ const Profile = () => {
   return (
     <div className={classes.root}>
       <div className={classes.content}>
-        <p className={classes.para}>
+        <div className={classes.para}>
           Hello, everyone ✋
-          <p>
-            <Text as p className={classes.strike}>
-              I'm a software developer living in Bangalore, India. I love to
-              build and design things. I have experience in creating
-              cross-platform desktop applications, website backends, user
-              experience, and visual design. I have worked extensively in teams
-              and alone.
-            </Text>
-            <p>WTF? Sound human Koushith. Okay, here you go.</p> Huh, so you're
-            interested in knowing more about me? The first thing I should
-            mention that I don't have any unique talents. I consider myself
-            pretty average.
-            <p>
-              <b> My two life principles are -</b>
-            </p>
-            <ul>
-              <li>Don't give up</li>
-              <li>work really hard in the right direction.</li>
-            </ul>
-            That's how I have achieved whatever you see so far. Born in a small
-            Village in Kodagu also known as (Coorg- Scotland of India), I have
-            humble beginnings. Until 2016, the only thing I knew about computers
-            was that it was invented by a guy named Charles or something..From
-            there, I have taught myself everything. I'm still learning. I still
-            have to Google the basic stuff like adding inline CSS in HTML :p.
-            <Text>
-              {' '}
-              I'm currently buidling some cool stuffs at
-              <b> Consenso Labs</b>.
-            </Text>
-          </p>
-        </p>
+          <Text as p className={classes.strike}>
+            I'm a software developer living in Bangalore, India. I love to build
+            and design things. I have experience in creating cross-platform
+            desktop applications, website backends, user experience, and visual
+            design. I have worked extensively in teams and alone.
+          </Text>
+          <p>WTF? Sound human Koushith. Okay, here you go.</p> Huh, so you're
+          interested in knowing more about me? The first thing I should mention
+          that I don't have any unique talents. I consider myself pretty
+          average.
+          <Text as p>
+            <b> My two life principles are -</b>
+          </Text>
+          <ul>
+            <li>Don't give up</li>
+            <li>work really hard in the right direction.</li>
+          </ul>
+          That's how I have achieved whatever you see so far. Born in a small
+          Village in Kodagu also known as (Coorg- Scotland of India), I have
+          humble beginnings. Until 2016, the only thing I knew about computers
+          was that it was invented by a guy named Charles or something..From
+          there, I have taught myself everything. I'm still learning. I still
+          have to Google the basic stuff like adding inline CSS in HTML :p.
+          <Text>
+            {' '}
+            I'm currently buidling some cool stuffs at
+            <b> Consenso Labs</b>.
+          </Text>
+        </div>
       </div>
     </div>
   );
