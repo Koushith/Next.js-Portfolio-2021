@@ -91,26 +91,6 @@ const useStyles = makeStyles((ui) => ({
   },
 }));
 
-const popoverContent = () => (
-  <>
-    <Popover.Item title>
-      <span>User Settings</span>
-    </Popover.Item>
-    <Popover.Item>
-      <Link pure>Teams</Link>
-    </Popover.Item>
-    <Popover.Item>
-      <Link pure href='/profile'>
-        GitHub
-      </Link>
-    </Popover.Item>
-    <Popover.Item line />
-    <Popover.Item>
-      <Link pure>Logout</Link>
-    </Popover.Item>
-  </>
-);
-
 const Menu = ({ toggleDarkMode }) => {
   console.log(toggleDarkMode);
   const classes = useStyles();
@@ -155,13 +135,6 @@ const Menu = ({ toggleDarkMode }) => {
             >
               {isDark ? <Icons.Sun size={16} /> : <Icons.Moon size={16} />}
             </Button>
-            <Popover
-              content={popoverContent}
-              placement='bottomEnd'
-              portalClassName={classes.popover}
-            >
-              <Avatar text='CL' />
-            </Popover>
           </div>
         </div>
       </div>
