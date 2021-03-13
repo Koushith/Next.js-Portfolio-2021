@@ -1,8 +1,6 @@
 import React from 'react';
-import { GeistUIThemes, Text, Link } from '@geist-ui/react';
 import makeStyles from './makeStyles';
-import EventListItem from './EventListItem.js';
-import ProjectCard from './ProjectCard';
+import { GeistUIThemes, Avatar, Button, Text, Link } from '@geist-ui/react';
 
 const useStyles = makeStyles((ui) => ({
   root: {
@@ -15,6 +13,7 @@ const useStyles = makeStyles((ui) => ({
     margin: '0 auto',
     padding: `calc(${ui.layout.gap} * 2) ${ui.layout.pageMargin} calc(${ui.layout.gap} * 4)`,
     transform: 'translateY(-35px)',
+    height: '70vh',
   },
   row: {
     display: 'flex',
@@ -59,88 +58,42 @@ const useStyles = makeStyles((ui) => ({
     marginBottom: ui.layout.gap,
     textAlign: 'center',
   },
-  activityTitle: {
-    fontWeight: 700,
-    marginTop: ui.layout.gap,
-    fontSize: 24,
-    textAlign: 'center',
+  intro: {
+    marginTop: 57,
+    introText: {
+      marginTop: 12,
+    },
+  },
+  actionBtn: {
+    marginTop: '30px !important',
+  },
+  actions: {
+    marginRight: 6,
   },
 }));
 
-const Content = () => {
+function Content() {
   const classes = useStyles();
   return (
-    <div className={classes.root}>
-      <div className={classes.content}>
-        <div className={classes.row}>
-          <div className={classes.projects}>
-            <ProjectCard
-              projectId='react-dashboard-design'
-              repo='ofekashery/react-dashboard-design'
-              created='4m'
-            />
-            <ProjectCard
-              projectId='personal-website'
-              repo='ofekashery/personal-website'
-              created='2d'
-            />
-            <ProjectCard projectId='docs' repo='github/docs' created='5d' />
-            <Text className={classes.viewAll}>
-              <Link color pure>
-                View All Projects
-              </Link>
-            </Text>
-          </div>
-          <div className={classes.activity}>
-            <Text h2 className={classes.activityTitle}>
-              Recent Activity
-            </Text>
-            <EventListItem
-              username='ofekashery'
-              avatar='/assets/avatar.png'
-              created='4m'
-            >
-              You deployed react-dashboard-design to <b>production</b>
-            </EventListItem>
-            <EventListItem
-              username='dependabot'
-              avatar='/assets/dependabot.png'
-              created='2d'
-            >
-              Dependabot deployed docs to{' '}
-              <b>docs-git-dependabot-npmelliptic-653.vercel.app</b>
-            </EventListItem>
-            <EventListItem
-              username='ofekashery'
-              avatar='/assets/avatar.png'
-              created='3d'
-            >
-              You deployed personal-website to <b>production</b>
-            </EventListItem>
-            <EventListItem
-              username='ofekashery'
-              avatar='/assets/avatar.png'
-              created='9d'
-            >
-              You deployed personal-website to <b>production</b>
-            </EventListItem>
-            <EventListItem
-              username='ofekashery'
-              avatar='/assets/avatar.png'
-              created='9d'
-            >
-              You created project <b>personal-website</b>
-            </EventListItem>
-            <Text className={classes.viewAll}>
-              <Link color pure>
-                View All Activity
-              </Link>
-            </Text>
-          </div>
-        </div>
+    <div className={classes.content}>
+      <div className={classes.intro}>
+        <Text h2>Hey, I’m Koushith Amin</Text>
+        <Text p className={classes.introText}>
+          I’m a Frontend Engineer and UI designer, Living in Bengaluru. i’m
+          currently building next generation <br />
+          Decentralized Apps at <b>Consenso Labs.</b>
+        </Text>
+      </div>
+      <div className={classes.actionBtn}>
+        <Button type='secondary' auto className={classes.actions}>
+          See My Projects
+        </Button>
+        <Button auto className={classes.actions}>
+          Download Resume
+        </Button>
       </div>
     </div>
   );
-};
+}
 
 export default Content;

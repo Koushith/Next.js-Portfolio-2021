@@ -9,13 +9,11 @@
   },
   "dependencies": {
     "@geist-ui/react": "^2.1.0-canary.1",
-    "@tryghost/content-api": "^1.4.14",
     "next": "9.4.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-feather": "^2.0.9",
     "react-jss": "^10.5.1",
-    "styled-components": "^5.2.1",
     "styled-jsx": "^3.2.5"
   }
 }
