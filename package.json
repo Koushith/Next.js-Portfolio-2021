@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/koushith"
+    "url": "git+https://github.com/taylorbryant/next-starter-tailwind.git"
   },
   "author": "Taylor Bryant",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/koushith"
+    "url": "https://github.com/taylorbryant/next-starter-tailwind/issues"
   },
-
+  "homepage": "https://github.com/taylorbryant/next-starter-tailwind#readme",
   "dependencies": {
     "@tailwindcss/typography": "^0.4.0",
     "fathom-client": "^3.0.0",
