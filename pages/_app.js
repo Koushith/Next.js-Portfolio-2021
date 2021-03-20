@@ -1,27 +1,22 @@
-import React, { useEffect, useState } from 'react'
-import useDomClean from '../lib/use-dom-clean'
-import { GeistProvider, CssBaseline, useTheme } from '@geist-ui/react'
-
-
-// const getDefaultTheme = () =>
-//   window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+import '../css/index.css';
+import Head from 'next/head';
+import Layout from '@components/layout';
+//import Container from "@components/Container";
 
 function MyApp({ Component, pageProps }) {
-
-  const [themeType, setThemeType] = useState('light');
-  const toggleDarkMode = () => setThemeType(themeType === 'dark' ? 'light' : 'dark');
-  pageProps['toggleDarkMode'] = toggleDarkMode
-
-  // if (window.matchMedia) {
-  //   const colorSchemeQuery = window.matchMedia('(prefers-color-scheme: dark)');
-  //   colorSchemeQuery.onchange = (e) => setThemeType(e.matches ? 'dark' : 'light');
-  // }
-
   return (
-    <GeistProvider theme={{ type: themeType }}>
-      <CssBaseline />
+    <Layout>
+      <Head>
+        <title>Next.js Starter Tailwind</title>
+        <meta
+          name='Description'
+          content='A Next.js starter styled using Tailwind CSS.'
+        />
+      </Head>
+
       <Component {...pageProps} />
-    </GeistProvider>
-  )
+    </Layout>
+  );
 }
-export default MyApp
+
+export default MyApp;

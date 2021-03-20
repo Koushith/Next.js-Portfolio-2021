@@ -50,23 +50,6 @@ export default function Container(props) {
         <a href='#skip' className='sr-only focus:not-sr-only'>
           Skip to content
         </a>
-
-        <div>
-          <Link href='/dashboard'>
-            <a className='p-1 sm:p-4 text-gray-900 dark:text-gray-100'>
-              Dashboard
-            </a>
-          </Link>
-          <Link href='/blog'>
-            <a className='p-1 sm:p-4 text-gray-900 dark:text-gray-100'>Blog</a>
-          </Link>
-          <Link href='/about'>
-            <a className='p-1 sm:p-4 text-gray-900 dark:text-gray-100'>About</a>
-          </Link>
-          <Link href='/'>
-            <a className='p-1 sm:p-4 text-gray-900 dark:text-gray-100'>Home</a>
-          </Link>
-        </div>
         <button
           aria-label='Toggle Dark Mode'
           type='button'
@@ -99,8 +82,23 @@ export default function Container(props) {
             </svg>
           )}
         </button>
+        <div>
+          <Link href='/dashboard'>
+            <a className='p-1 sm:p-4 text-gray-900 dark:text-gray-100'>
+              Dashboard
+            </a>
+          </Link>
+          <Link href='/blog'>
+            <a className='p-1 sm:p-4 text-gray-900 dark:text-gray-100'>Blog</a>
+          </Link>
+          <Link href='/about'>
+            <a className='p-1 sm:p-4 text-gray-900 dark:text-gray-100'>About</a>
+          </Link>
+          <Link href='/'>
+            <a className='p-1 sm:p-4 text-gray-900 dark:text-gray-100'>Home</a>
+          </Link>
+        </div>
       </nav>
-
       <main
         id='skip'
         className='flex flex-col justify-center bg-white dark:bg-black px-8'
