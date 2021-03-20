@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 import Timeline from '../components/Timeline';
 import Container from '../components/Container';
-import Layout from '../components/layout';
+import Layout from '../components/Layout';
 // import BlogPost from '../components/BlogPost';
 // import Subscribe from '../components/Subscribe';
 import ProjectCard from '../components/ProjectCard';
