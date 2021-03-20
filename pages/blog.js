@@ -1,7 +1,7 @@
 import React from 'react';
 
 function blog() {
-  return <div>coming soon</div>;
+  return <div className='dark:text-white'>coming soon</div>;
 }
 
 export default blog;

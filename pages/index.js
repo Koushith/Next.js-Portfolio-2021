@@ -22,64 +22,65 @@ export default function Home() {
       </h3>
       <ProjectCard
         title='Portex'
-        description='Build and deploy a modern Jamstack application using the most popular open-source software.'
+        description='Secure crypto portfolio management and exchange application. Portex was on of the top 20 Projects for Celebrity Judging at the ETHDenver hackathon 2021 🏆'
         href='https://github.com/koshikraj/portex'
         icon='nextjs'
       />
       <ProjectCard
         title='SignChain'
-        description='A free video course for building static and server-side rendered applications with Next.js and React.'
+        description='Digital signing platform for legal documents. Signchain has bagged 2 sponsor prizes during the EthOnline hackathon 🎉 🎊.'
         href='https://github.com/signchain/core'
         icon='nextjs'
       />
 
       <ProjectCard
-        title='Periple'
-        description='The easiest way to add comments or reviews to your static site. Built as part of React 2025.'
-        href='https://fastfeedback.io/'
+        title='Hack On'
+        description='The easiest way to add comments or reviews to your static site. Built using MERN Stack.'
+        href='https://hack-on-dev.herokuapp.com/'
         icon='nextjs'
       />
       <ProjectCard
-        title='Hack On'
-        description='The easiest way to add comments or reviews to your static site. Built as part of React 2025.'
-        href='https://fastfeedback.io/'
+        title='Periple'
+        description='Periple- Online Dairy App -UI/UX Case Study. it was a part of 7days of Figma challange created while learning UI Design'
+        href='https://koushith.netlify.app/blog05.html'
         icon='nextjs'
       />
+      {/* <ProjectCard
+        title='Lastmin Prep'
+        description='Periple- Online Dairy App -UI/UX Case Study. it was a part of 7days of Figma challange created while learning UI Design'
+        href='https://github.com/signchain/core'
+        icon='nextjs'
+      /> */}
       <ProjectCard
         title='Medicare'
-        description='The easiest way to add comments or reviews to your static site. Built as part of React 2025.'
-        href='https://fastfeedback.io/'
+        description='Medicare- Clinic Queue Management App. My first ever UI Design. covered an end to end Design Flow'
+        href='https://koushith.netlify.app/blog01.html'
         icon='nextjs'
       />
-      <ProjectCard
+      {/* <ProjectCard
         title='Crypto Exchange Tracker'
         description='The easiest way to add comments or reviews to your static site. Built as part of React 2025.'
         href='https://fastfeedback.io/'
         icon='nextjs'
-      />
+      /> */}
 
       <ProjectCard
         title='FEM Design System'
-        description='The easiest way to add comments or reviews to your static site. Built as part of React 2025.'
-        href='https://fastfeedback.io/'
+        description='Building my own Component Library to Bootstrap personal projects. made use of React, Styled-Components and much more. inspired by IBM Plex.'
+        href='https://github.com/koushith/'
         icon='nextjs'
       />
-      <ProjectCard
-        title='Github Profile Fetcher'
-        description='The easiest way to add comments or reviews to your static site. Built as part of React 2025.'
-        href='https://fastfeedback.io/'
-        icon='nextjs'
-      />
-      <ProjectCard
+
+      {/* <ProjectCard
         title='Old Portfolio Archive'
-        description='The easiest way to add comments or reviews to your static site. Built as part of React 2025.'
+        description='Archived list of all of my Portfolios. just to recall old '
         href='https://fastfeedback.io/'
         icon='nextjs'
-      />
+      /> */}
       <ProjectCard
         title='Documentation Series'
-        description='The easiest way to add comments or reviews to your static site. Built as part of React 2025.'
-        href='https://fastfeedback.io/'
+        description='Documenting my Learning process along the way. This helps me to track my progress over time. '
+        href='https://koushith97.medium.com/first-blog-post-testing-8999201aeddd'
         icon='nextjs'
       />
       {/* <BlogPost
