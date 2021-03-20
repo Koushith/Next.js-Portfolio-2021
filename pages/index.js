@@ -14,24 +14,31 @@ export default function Home() {
         Hey, I’m Koushith Amin
       </h1>
       <h2 className='prose text-gray-600 dark:text-gray-400 mb-16'>
-        I’m a Frontend Enginner, Visual Designer, living in Bengaluru. I'm
-        currently building next generation DAPP's at Consenso Labs. –&nbsp;
+        I’m a Frontend Enginner and Visual Designer, living in Bengaluru. I'm
+        currently building next generation DApps at Consenso Labs.
       </h2>
       <h3 className='font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white'>
         Projects
       </h3>
       <ProjectCard
-        title='React 2025'
+        title='Portex'
         description='Build and deploy a modern Jamstack application using the most popular open-source software.'
-        href='https://react2025.com/'
-        icon='react2025'
-      />
-      <ProjectCard
-        title='Learn Next.js'
-        description='A free video course for building static and server-side rendered applications with Next.js and React.'
-        href='https://masteringnextjs.com/'
+        href='https://app.portex.xyz/'
         icon='nextjs'
       />
+      <ProjectCard
+        title='SignChain'
+        description='A free video course for building static and server-side rendered applications with Next.js and React.'
+        href='https://app.signchain.xyz/#/'
+        icon='nextjs'
+      />
+      <ProjectCard
+        title='Fast Feedback'
+        description='The easiest way to add comments or reviews to your static site. Built as part of React 2025.'
+        href='https://fastfeedback.io/'
+        icon='fastfeedback'
+      />
+
       <ProjectCard
         title='Fast Feedback'
         description='The easiest way to add comments or reviews to your static site. Built as part of React 2025.'

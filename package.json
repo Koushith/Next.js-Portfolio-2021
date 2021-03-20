@@ -1,5 +1,5 @@
 {
-  "name": "next-starter-tailwind",
+  "name": "KoushithAmin portfolio",
   "version": "2.0.0",
   "description": "Next.js starter styled with Tailwind CSS",
   "main": "index.js",
@@ -10,14 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/taylorbryant/next-starter-tailwind.git"
+    "url": "git+https://github.com/Koushith/Next.js-Portfolio-2021.git"
   },
-  "author": "Taylor Bryant",
+  "author": "Koushith",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/taylorbryant/next-starter-tailwind/issues"
-  },
-  "homepage": "https://github.com/taylorbryant/next-starter-tailwind#readme",
+  
+  "homepage": "https://github.com/Koushith/Next.js-Portfolio-2021",
   "dependencies": {
     "@tailwindcss/typography": "^0.4.0",
     "fathom-client": "^3.0.0",
