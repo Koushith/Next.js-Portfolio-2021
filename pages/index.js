@@ -71,6 +71,12 @@ export default function Home() {
         icon='nextjs'
       />
       <ProjectCard
+        title='Old Portfolio Archive'
+        description='The easiest way to add comments or reviews to your static site. Built as part of React 2025.'
+        href='https://fastfeedback.io/'
+        icon='nextjs'
+      />
+      <ProjectCard
         title='Documentation Series'
         description='The easiest way to add comments or reviews to your static site. Built as part of React 2025.'
         href='https://fastfeedback.io/'
