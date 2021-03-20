@@ -41,7 +41,7 @@ export default function About() {
         About Me
       </h1>
       <div className='mb-8 prose leading-6 text-gray-600 dark:text-gray-400'>
-        <p>Hello, everyone ✋</p> <br />
+        <p>Hello, everyone ✋</p>
         <p style={{ textDecoration: 'line-through' }}>
           {' '}
           I'm a software developer living in Bangalore, India. I love to build
@@ -49,25 +49,20 @@ export default function About() {
           desktop applications, website backends, user experience, and visual
           design. I have worked extensively in teams and alone.
         </p>{' '}
-        <br />
         <p>
-          WTF? Sound human Koushith. Okay, here you go. <br />
-          <br />
-          Huh, so you're interested in knowing more about me? The first thing I
-          should mention that I don't have any unique talents. I consider myself
-          pretty average.
+          WTF? Sound human Koushith. Okay, here you go. Huh, so you're
+          interested in knowing more about me? The first thing I should mention
+          that I don't have any unique talents. I consider myself pretty
+          average.
         </p>
-        <br />
         <p>
           <b>My two life principles are -</b>
-          <br />
-          <br />
+
           <ul>
-            <li>- Don't give up.</li>
-            <li>- Work really hard in the right direction.</li>
+            <li> Don't give up.</li>
+            <li>Work really hard in the right direction.</li>
           </ul>
         </p>
-        <br />
         <p>
           That's how I have achieved whatever you see so far. Born in a small
           Village in Kodagu also known as (Coorg- Scotland of India), I have
@@ -81,15 +76,10 @@ export default function About() {
         Conference Talks
       </h2>
       <Talk
-        title='Data Fetching with Next.js'
-        link='https://www.youtube.com/watch?v=Sz7SImkdIpo&feature=youtu.be&t=6063'
+        title='Intro to Figma'
+        link='https://www.youtube.com/watch?v=Sz7SImkdIpo&fe3'
       >
-        Next.js is a hybrid React framework allowing you to choose your data
-        fetching strategy on a per-page basis. In this talk, you’ll learn more
-        about CSR (Client-Side Rendering), SSR (Server-Side Rendering), SSG
-        (Static-Site Generation), ISR (Incremental Static Regeneration), and
-        when to use each one. I’ll also give a quick introduction to Next.js and
-        share some of the main features of the framework.
+        Workshop on intro to UI Design using Figma.
       </Talk>
     </div>
   );

@@ -23,27 +23,58 @@ export default function Home() {
       <ProjectCard
         title='Portex'
         description='Build and deploy a modern Jamstack application using the most popular open-source software.'
-        href='https://app.portex.xyz/'
+        href='https://github.com/koshikraj/portex'
         icon='nextjs'
       />
       <ProjectCard
         title='SignChain'
         description='A free video course for building static and server-side rendered applications with Next.js and React.'
-        href='https://app.signchain.xyz/#/'
+        href='https://github.com/signchain/core'
         icon='nextjs'
-      />
-      <ProjectCard
-        title='Fast Feedback'
-        description='The easiest way to add comments or reviews to your static site. Built as part of React 2025.'
-        href='https://fastfeedback.io/'
-        icon='fastfeedback'
       />
 
       <ProjectCard
-        title='Fast Feedback'
+        title='Periple'
         description='The easiest way to add comments or reviews to your static site. Built as part of React 2025.'
         href='https://fastfeedback.io/'
-        icon='fastfeedback'
+        icon='nextjs'
+      />
+      <ProjectCard
+        title='Hack On'
+        description='The easiest way to add comments or reviews to your static site. Built as part of React 2025.'
+        href='https://fastfeedback.io/'
+        icon='nextjs'
+      />
+      <ProjectCard
+        title='Medicare'
+        description='The easiest way to add comments or reviews to your static site. Built as part of React 2025.'
+        href='https://fastfeedback.io/'
+        icon='nextjs'
+      />
+      <ProjectCard
+        title='Crypto Exchange Tracker'
+        description='The easiest way to add comments or reviews to your static site. Built as part of React 2025.'
+        href='https://fastfeedback.io/'
+        icon='nextjs'
+      />
+
+      <ProjectCard
+        title='FEM Design System'
+        description='The easiest way to add comments or reviews to your static site. Built as part of React 2025.'
+        href='https://fastfeedback.io/'
+        icon='nextjs'
+      />
+      <ProjectCard
+        title='Github Profile Fetcher'
+        description='The easiest way to add comments or reviews to your static site. Built as part of React 2025.'
+        href='https://fastfeedback.io/'
+        icon='nextjs'
+      />
+      <ProjectCard
+        title='Documentation Series'
+        description='The easiest way to add comments or reviews to your static site. Built as part of React 2025.'
+        href='https://fastfeedback.io/'
+        icon='nextjs'
       />
       {/* <BlogPost
           title='Everything I Know About Style Guides, Design Systems, and Component Libraries'
