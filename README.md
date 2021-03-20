@@ -1,54 +1,28 @@
-# Next.js Starter Tailwind
+# Next.js demo for Geist UI React
 
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+## About
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app), the [geist-ui](https://react.geist-ui.dev/en-us/guide/introduction) implementation follows the [documentation](https://react.geist-ui.dev/en-us/guide/installation).
 
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+## Getting Started
 
-![alt text](https://github.com/taylorbryant/next-starter-tailwind/blob/master/public/screenshot.png "Screenshot of Tailwind Next.js Starter homepage")
+First, run the development server:
 
- <div align="center">
- <p><strong>A <a href="https://nextjs.org" target="_blank">Next.js</a> starter styled using <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>.</strong></p>
- <p>Uses Tailwind CSS' <a href="https://tailwindcss.com/docs/controlling-file-size" target="_blank">built-in purge option</a> to remove unused CSS.</p>
- <p>Illustrations by <a href="https://undraw.co/" target="_blank">unDraw</a>.</p>
- <p>View demo <a href="https://next-starter-tailwind.taylorbryant.dev" target="_blank">here</a>.</p>
-</div>
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-## Deploy
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Vercel
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Ftaylorbryant%2Fnext-starter-tailwind%2Ftree%2Fmaster)
+## Learn More
 
-## License
+To learn more about Next.js, take a look at the following resources:
 
-[MIT](https://github.com/taylorbryant/next-starter-tailwind/blob/master/LICENSE.md)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## How you can help
-
-Enjoying this starter and want to help? You can:
-
-- [Create an issue](https://github.com/taylorbryant/next-starter-tailwind/issues/new) with some constructive criticism
-- [Submit a pull request](https://github.com/taylorbryant/next-starter-tailwind/compare) with some improvements to the project
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/Mozart409"><img src="https://avatars2.githubusercontent.com/u/38767929?v=4" width="100px;" alt=""/><br /><sub><b>Amadeus</b></sub></a><br /><a href="https://github.com/taylorbryant/next-starter-tailwind/commits?author=Mozart409" title="Code">💻</a> <a href="#ideas-Mozart409" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://www.synaptech.fr"><img src="https://avatars3.githubusercontent.com/u/10560326?v=4" width="100px;" alt=""/><br /><sub><b>David Eugene</b></sub></a><br /><a href="https://github.com/taylorbryant/next-starter-tailwind/commits?author=egdavid" title="Code">💻</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+You can check out [the Next.js GitHub repository](https://github.com/zeit/next.js/) - your feedback and contributions are welcome!
