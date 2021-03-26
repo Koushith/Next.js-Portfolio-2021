@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/taylorbryant/next-starter-tailwind.git"
+    "url": "git+https://github.com/Koushith/Next.js-Portfolio-2021.git"
   },
-  "author": "Taylor Bryant",
+  "author": "koushith Amin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/taylorbryant/next-starter-tailwind/issues"
+    "url": "https://github.com/koushith/Next.js-Portfolio-2021"
   },
-  "homepage": "https://github.com/taylorbryant/next-starter-tailwind#readme",
+  "homepage": "https://github.com/koushith/Next.js-Portfolio-2021",
   "dependencies": {
     "@tailwindcss/typography": "^0.4.0",
     "fathom-client": "^3.0.0",
