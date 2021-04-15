@@ -2,17 +2,42 @@ import { useState } from 'react';
 
 import BlogPost from '../components/BlogPost';
 
-export default function Blog() {
+const CONTENT_API_KEY = '47225b98eaa1d61ea1463d34c0';
+
+async function getPosts() {
+  // "https://demo.ghost.io/ghost/api/v3/content/posts/?key=22444f78447824223cefc48062"
+
+  const res = await fetch(
+    `https://koushith-portfolio-blog.herokuapp.com//ghost/api/v3/content/posts/?key=${CONTENT_API_KEY}&fields=title,slug,custom_excerpt`
+  ).then((res) => res.json());
+
+  const posts = res.posts;
+
+  return posts;
+}
+
+export const getStaticProps = async () => {
+  const posts = await getPosts();
+  return {
+    props: { posts },
+    revalidate: 10,
+  };
+};
+
+export default function Blog(props) {
+  const { posts } = props;
+
   return (
     <div className='flex flex-col justify-center items-start max-w-2xl mx-auto mb-16'>
       <h1 className='font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white'>
-        Blog
+        Blogs
       </h1>
       <p className='text-gray-600 dark:text-gray-400 mb-4'>
         {`I've been writing online since 2020, mostly about web development and personal mental health.
             In total, I've written 8 articles on this site.
-            Use the search below to filter by title.`}
+           `}
       </p>
+
       <div className='relative w-full mb-4'>
         <input
           aria-label='Search articles'
@@ -41,11 +66,14 @@ export default function Blog() {
         All Posts
       </h3>
 
-      <BlogPost
-        title='Creating a Monorepo with Lerna & Yarn Workspaces'
-        summary='In this guide, you will learn how to create a Monorepo to manage multiple packages with a shared build, test, and release process.'
-        slug='monorepo-lerna-yarn-workspaces'
-      />
+      {posts.map((post) => (
+        <BlogPost
+          title={post.title}
+          summary='In this guide, you will learn how to create a Monorepo to manage multiple packages with a shared build, test, and release process.'
+          slug={post.slug}
+          key={post.slug}
+        />
+      ))}
     </div>
   );
 }
