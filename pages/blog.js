@@ -26,16 +26,14 @@ export const getStaticProps = async () => {
 
 export default function Blog(props) {
   const { posts } = props;
-
   return (
     <div className='flex flex-col justify-center items-start max-w-2xl mx-auto mb-16'>
       <h1 className='font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white'>
         Blogs
       </h1>
       <p className='text-gray-600 dark:text-gray-400 mb-4'>
-        {`I've been writing online since 2020, mostly about web development and personal mental health.
-            In total, I've written 8 articles on this site.
-           `}
+        I've been writing online since 2020, mostly about web development and
+        personal mental health. In total, I've written 8 articles on this site.
       </p>
 
       <div className='relative w-full mb-4'>
