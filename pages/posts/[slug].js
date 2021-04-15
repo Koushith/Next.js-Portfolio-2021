@@ -7,7 +7,7 @@ import BlogLayout from '../../components/BlogLayout';
 const CONTENT_API_KEY = '47225b98eaa1d61ea1463d34c0';
 async function getPost(slug) {
   const res = await fetch(
-    `https://koushith-portfolio-blog.herokuapp.com/ghost/api/v3/content/posts/slug/${slug}?key=${CONTENT_API_KEY}&fields=title,slug,html`
+    `https://koushith-portfolio-blog.herokuapp.com/ghost/api/v3/content/posts/slug/${slug}?key=${CONTENT_API_KEY}&fields=title,slug,html,feature_image,published_at,reading_time`
   ).then((res) => res.json());
 
   console.log(res, 'res');
@@ -74,7 +74,43 @@ const Post = (props) => {
     // </div>
 
     <>
-      <BlogLayout post={post} />
+      {/* <BlogLayout post={post} /> */}
+
+      <article className='flex flex-col justify-center items-start max-w-2xl mx-auto mb-16 w-full'>
+        <h1 className='font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white'>
+          {/* {frontMatter.title} */}
+          {post.title}
+        </h1>
+        <div className='flex flex-col md:flex-row justify-between items-start md:items-center w-full mt-2'>
+          <div className='flex items-center'>
+            <Image
+              alt='Lee Robinson'
+              height={24}
+              width={24}
+              src='/avatar.jpg'
+              className='rounded-full'
+            />
+            <p className='text-sm text-gray-700 dark:text-gray-300 ml-2'>
+              {/* {frontMatter.by}
+              {'Lee Robinson / '}
+              {format(parseISO(frontMatter.publishedAt), 'MMMM dd, yyyy')} */}{' '}
+              {post.published_at}
+            </p>
+          </div>
+          <p className='text-sm text-gray-500 min-w-32 mt-2 md:mt-0'>
+            {post.reading_time} min read
+          </p>
+        </div>
+        <div
+          className='prose dark:prose-dark max-w-none w-full'
+          dangerouslySetInnerHTML={{ __html: post.html }}
+        ></div>
+        <div className='mt-8'>{/* <Subscribe /> */}</div>
+        <div className='text-sm text-gray-700 dark:text-gray-300'>
+          {/* {enableLoadComments && <p onClick={loadComments}>Load Comments</p>} */}
+          <div id='disqus_thread'></div>
+        </div>
+      </article>
     </>
   );
 };
