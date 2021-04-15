@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const BlogPost = ({ title, summary, slug }) => {
   return (
-    <Link href='/'>
+    <Link href='/posts/[slug] ' as={`/posts/${slug}`}>
       <a className='w-full'>
         <div className='mb-8 w-full'>
           <div className='flex flex-col md:flex-row justify-between'>
