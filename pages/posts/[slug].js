@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
+import Image from 'next/image';
 import BlogLayout from '../../components/BlogLayout';
 const CONTENT_API_KEY = '47225b98eaa1d61ea1463d34c0';
 async function getPost(slug) {
@@ -49,19 +50,30 @@ const Post = (props) => {
     return <h1>Loading...</h1>;
   }
 
-  function loadComments() {
-    setEnableLoadComments(false);
-    window.disqus_config = function () {
-      this.page.url = window.location.href;
-      this.page.identifier = post.slug;
-    };
+  // function loadComments() {
+  //   setEnableLoadComments(false);
+  //   window.disqus_config = function () {
+  //     this.page.url = window.location.href;
+  //     this.page.identifier = post.slug;
+  //   };
 
-    const script = document.createElement('script');
-    script.src = 'https://ghostcms-nextjs.disqus.com/embed.js';
-    script.setAttribute('data-timestamp', Date.now().toString());
+  //   const script = document.createElement('script');
+  //   script.src = 'https://ghostcms-nextjs.disqus.com/embed.js';
+  //   script.setAttribute('data-timestamp', Date.now().toString());
 
-    document.body.appendChild(script);
-  }
+  //   document.body.appendChild(script);
+  // }
+
+  window.disqus_config = function () {
+    this.page.url = window.location.href;
+    this.page.identifier = post.slug;
+  };
+
+  const script = document.createElement('script');
+  script.src = 'https://ghostcms-nextjs.disqus.com/embed.js';
+  script.setAttribute('data-timestamp', Date.now().toString());
+
+  document.body.appendChild(script);
 
   return (
     // <div>
@@ -75,7 +87,6 @@ const Post = (props) => {
 
     <>
       {/* <BlogLayout post={post} /> */}
-
       <article className='flex flex-col justify-center items-start max-w-2xl mx-auto mb-16 w-full'>
         <h1 className='font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white'>
           {/* {frontMatter.title} */}
