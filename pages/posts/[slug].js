@@ -50,30 +50,19 @@ const Post = (props) => {
     return <h1>Loading...</h1>;
   }
 
-  // function loadComments() {
-  //   setEnableLoadComments(false);
-  //   window.disqus_config = function () {
-  //     this.page.url = window.location.href;
-  //     this.page.identifier = post.slug;
-  //   };
+  function loadComments() {
+    setEnableLoadComments(false);
+    window.disqus_config = function () {
+      this.page.url = window.location.href;
+      this.page.identifier = post.slug;
+    };
 
-  //   const script = document.createElement('script');
-  //   script.src = 'https://ghostcms-nextjs.disqus.com/embed.js';
-  //   script.setAttribute('data-timestamp', Date.now().toString());
+    const script = document.createElement('script');
+    script.src = 'https://ghostcms-nextjs.disqus.com/embed.js';
+    script.setAttribute('data-timestamp', Date.now().toString());
 
-  //   document.body.appendChild(script);
-  // }
-
-  window.disqus_config = function () {
-    this.page.url = window.location.href;
-    this.page.identifier = post.slug;
-  };
-
-  const script = document.createElement('script');
-  script.src = 'https://ghostcms-nextjs.disqus.com/embed.js';
-  script.setAttribute('data-timestamp', Date.now().toString());
-
-  document.body.appendChild(script);
+    document.body.appendChild(script);
+  }
 
   return (
     // <div>
@@ -95,7 +84,7 @@ const Post = (props) => {
         <div className='flex flex-col md:flex-row justify-between items-start md:items-center w-full mt-2'>
           <div className='flex items-center'>
             <Image
-              alt='Lee Robinson'
+              alt='Koushith Amin'
               height={24}
               width={24}
               src='/avatar.jpg'
@@ -112,13 +101,15 @@ const Post = (props) => {
             {post.reading_time} min read
           </p>
         </div>
+        <img src={post.feature_image} className='my-10 ' />
+
         <div
           className='prose dark:prose-dark max-w-none w-full'
           dangerouslySetInnerHTML={{ __html: post.html }}
         ></div>
         <div className='mt-8'>{/* <Subscribe /> */}</div>
         <div className='text-sm text-gray-700 dark:text-gray-300'>
-          {/* {enableLoadComments && <p onClick={loadComments}>Load Comments</p>} */}
+          {enableLoadComments && <p onClick={loadComments}>Load Comments</p>}
           <div id='disqus_thread'></div>
         </div>
       </article>
