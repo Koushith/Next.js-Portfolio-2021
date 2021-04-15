@@ -2,7 +2,6 @@
 
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import Layout from '../../components/layout';
 import { useState } from 'react';
 import BlogLayout from '../../components/BlogLayout';
 const CONTENT_API_KEY = '47225b98eaa1d61ea1463d34c0';

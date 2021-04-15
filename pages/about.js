@@ -1,7 +1,5 @@
 import Link from 'next/link';
 
-import Container from '../components/Container';
-
 const Talk = ({ title, link, children }) => (
   <>
     <h3 className='font-medium mb-2 text-lg'>
