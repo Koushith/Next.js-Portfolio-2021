@@ -10,6 +10,7 @@ async function getPost(slug) {
     `https://koushith-portfolio-blog.herokuapp.com/ghost/api/v3/content/posts/slug/${slug}?key=${CONTENT_API_KEY}&fields=title,slug,html`
   ).then((res) => res.json());
 
+  console.log(res, 'res');
   const posts = res.posts;
 
   return posts[0];
