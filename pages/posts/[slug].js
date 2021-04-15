@@ -110,7 +110,7 @@ const Post = (props) => {
         <div className='mt-8'>{/* <Subscribe /> */}</div>
         <div className='text-sm text-gray-700 dark:text-gray-300'>
           {enableLoadComments && <p onClick={loadComments}>Load Comments</p>}
-          <div id='disqus_thread'></div>
+          <div style={{ width: '100% ', margin: '20px 0' }}></div>
         </div>
       </article>
     </>
