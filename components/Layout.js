@@ -19,7 +19,7 @@ export default function Container(props) {
   const meta = {
     title: 'Koushith Amin – Developer, writer, UI Designer.',
     description: `Front-end developer, JavaScript enthusiast, and UI Designer.`,
-    // image: 'https://leerob.io/static/images/banner.png',
+
     type: 'website',
     ...customMeta,
   };
@@ -32,7 +32,7 @@ export default function Container(props) {
         <meta content={meta.description} name='description' />
 
         <meta property='og:type' content={meta.type} />
-        <meta property='og:site_name' content='Lee Robinson' />
+        <meta property='og:site_name' content='Koushith Amin' />
         <meta property='og:description' content={meta.description} />
         <meta property='og:title' content={meta.title} />
         <meta property='og:image' content={meta.image} />

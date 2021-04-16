@@ -91,9 +91,6 @@ const Post = (props) => {
               className='rounded-full'
             />
             <p className='text-sm text-gray-700 dark:text-gray-300 ml-2'>
-              {/* {frontMatter.by}
-              {'Lee Robinson / '}
-              {format(parseISO(frontMatter.publishedAt), 'MMMM dd, yyyy')} */}{' '}
               {post.published_at}
             </p>
           </div>
