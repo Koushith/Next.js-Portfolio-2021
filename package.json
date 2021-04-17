@@ -20,6 +20,8 @@
   "homepage": "https://github.com/koushith/Next.js-Portfolio-2021",
   "dependencies": {
     "@tailwindcss/typography": "^0.4.0",
+    "comma-number": "^2.0.1",
+    "date-fns": "^2.21.1",
     "fathom-client": "^3.0.0",
     "gray-matter": "^4.0.2",
     "next": "10.0.7",
