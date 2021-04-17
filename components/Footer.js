@@ -42,11 +42,9 @@ export default function Footer() {
           </ExternalLink>
         </div>
         <div className='flex flex-col space-y-4'>
-          <Link href='/tweets'>
-            <a className='text-gray-500 hover:text-gray-600 transition'>
-              Tweets
-            </a>
-          </Link>
+          <ExternalLink href='https://www.youtube.com/channel/UC2jU6KNhrAPJ4LIWDuiagnA'>
+            YouTube
+          </ExternalLink>
           <Link href='/guestbook'>
             <a className='text-gray-500 hover:text-gray-600 transition'>
               Guestbook
