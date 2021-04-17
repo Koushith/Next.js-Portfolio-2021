@@ -14,7 +14,7 @@ export default function Home() {
         Hey, I’m Koushith Amin
       </h1>
       <h2 className='prose text-gray-600 dark:text-gray-400 mb-16'>
-        I’m a Frontend Enginner and Visual Designer, living in Bengaluru. I'm
+        I’m a Frontend Engineer and Visual Designer, living in Bengaluru. I'm
         currently building next generation DApps at Consenso Labs.
       </h2>
       <h3 className='font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white'>
@@ -32,7 +32,6 @@ export default function Home() {
         href='https://github.com/signchain/core'
         icon='nextjs'
       />
-
       <ProjectCard
         title='Hack On'
         description='The easiest way to add comments or reviews to your static site. Built using MERN Stack.'
@@ -45,45 +44,25 @@ export default function Home() {
         href='https://koushith.netlify.app/blog05.html'
         icon='nextjs'
       />
-      {/* <ProjectCard
-        title='Lastmin Prep'
-        description='Periple- Online Dairy App -UI/UX Case Study. it was a part of 7days of Figma challange created while learning UI Design'
-        href='https://github.com/signchain/core'
-        icon='nextjs'
-      /> */}
+      \
       <ProjectCard
         title='Medicare'
         description='Medicare- Clinic Queue Management App. My first ever UI Design. covered an end to end Design Flow'
         href='https://koushith.netlify.app/blog01.html'
         icon='nextjs'
       />
-      {/* <ProjectCard
-        title='Crypto Exchange Tracker'
-        description='The easiest way to add comments or reviews to your static site. Built as part of React 2025.'
-        href='https://fastfeedback.io/'
-        icon='nextjs'
-      /> */}
-
       <ProjectCard
         title='FEM Design System'
         description='Building my own Component Library to Bootstrap personal projects. made use of React, Styled-Components and much more. inspired by IBM Plex.'
         href='https://github.com/koushith/'
         icon='nextjs'
       />
-
-      {/* <ProjectCard
-        title='Old Portfolio Archive'
-        description='Archived list of all of my Portfolios. just to recall old '
-        href='https://fastfeedback.io/'
-        icon='nextjs'
-      /> */}
       <ProjectCard
         title='Documentation Series'
         description='Documenting my Learning process along the way. This helps me to track my progress over time. '
         href='https://www.youtube.com/channel/UC2jU6KNhrAPJ4LIWDuiagnA'
         icon='nextjs'
       />
-
       <Timeline />
     </div>
   );
