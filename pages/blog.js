@@ -8,7 +8,7 @@ async function getPosts() {
   // "https://demo.ghost.io/ghost/api/v3/content/posts/?key=22444f78447824223cefc48062"
 
   const res = await fetch(
-    `https://koushith-portfolio-blog.herokuapp.com//ghost/api/v3/content/posts/?key=${CONTENT_API_KEY}&fields=title,slug,custom_excerpt`
+    `https://koushith-portfolio-blog.herokuapp.com//ghost/api/v3/content/posts/?key=${CONTENT_API_KEY}&fields=title,slug,custom_excerpt,published_at`
   ).then((res) => res.json());
 
   const posts = res.posts;
@@ -25,6 +25,7 @@ export const getStaticProps = async () => {
 };
 
 export default function Blog(props) {
+  console.log('PROPS', props);
   const { posts } = props;
   return (
     <div className='flex flex-col justify-center items-start max-w-2xl mx-auto mb-16'>
@@ -70,6 +71,7 @@ export default function Blog(props) {
           summary='In this guide, you will learn how to create a Monorepo to manage multiple packages with a shared build, test, and release process.'
           slug={post.slug}
           key={post.slug}
+          published_at={post.published_at}
         />
       ))}
     </div>
