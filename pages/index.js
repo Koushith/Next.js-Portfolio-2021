@@ -44,7 +44,6 @@ export default function Home() {
         href='https://koushith.netlify.app/blog05.html'
         icon='nextjs'
       />
-      \
       <ProjectCard
         title='Medicare'
         description='Medicare- Clinic Queue Management App. My first ever UI Design. covered an end to end Design Flow'
