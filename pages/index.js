@@ -17,6 +17,7 @@ export default function Home() {
         I’m a Frontend Engineer and Visual Designer, living in Bengaluru. I'm
         currently building next generation DApps at Consenso Labs.
       </h2>
+
       <h3 className='font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white'>
         Projects
       </h3>

@@ -68,7 +68,7 @@ export default function Blog(props) {
       {posts.map((post) => (
         <BlogPost
           title={post.title}
-          summary='In this guide, you will learn how to create a Monorepo to manage multiple packages with a shared build, test, and release process.'
+          summary={post.custom_excerpt}
           slug={post.slug}
           key={post.slug}
           published_at={post.published_at}
