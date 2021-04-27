@@ -18,7 +18,7 @@ export default function Container(props) {
   const router = useRouter();
   const meta = {
     title: 'Koushith Amin – Developer, writer, UI Designer.',
-    description: `Front-end developer, JavaScript enthusiast, and UI Designer.`,
+    description: `Front-end Engineer, JavaScript enthusiast, and UI Designer.`,
 
     type: 'website',
     ...customMeta,
@@ -62,7 +62,7 @@ export default function Container(props) {
           aria-label='Toggle Dark Mode'
           type='button'
           className='bg-gray-200 dark:bg-gray-800 rounded p-3 h-10 w-10'
-          onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+          onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
         >
           {mounted && (
             <svg
