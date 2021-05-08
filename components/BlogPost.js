@@ -29,7 +29,10 @@ const BlogPost = ({ title, summary, slug, published_at }) => {
             <div className='grid py-8 sm:grid-cols-4'>
               <div className='mb-4 sm:mb-0'>
                 <div className='space-y-1 text-xs font-semibold tracking-wide uppercase'>
-                  <p className='text-gray-600'>5 Jan 2020</p>
+                  <p className='text-gray-600'>
+                    {' '}
+                    {new Date(published_at).toDateString()}
+                  </p>
                 </div>
               </div>
               <div className='sm:col-span-3 lg:col-span-2'>
