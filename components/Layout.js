@@ -180,7 +180,7 @@ export default function Container(props) {
                   <nav>
                     <ul class='space-y-4'>
                       <li>
-                        <Link href='/' onClick={() => setIsMenuOpen(false)}>
+                        <Link href='/'>
                           <a
                             className='p-1 sm:p-4 text-gray-900 dark:text-gray-100'
                             onClick={() => setIsMenuOpen(false)}
