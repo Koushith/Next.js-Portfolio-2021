@@ -1,9 +1,15 @@
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
+import { useTheme } from 'next-themes';
 
 import Image from 'next/image';
 
-export default function Header({ mounted, setMounted, theme, setTheme }) {
+export default function Header() {
+  const [mounted, setMounted] = useState(false);
+  const { theme, setTheme } = useTheme();
+
+  // After mounting, we have access to the theme
+  useEffect(() => setMounted(true), []);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <>

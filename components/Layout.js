@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
 import Footer from './Footer';
 
-// import Header from './Header';
+import Header from './Header';
 
 // import Footer from '@/components/Footer';
 
@@ -46,13 +46,13 @@ export default function Container(props) {
           <meta property='article:published_time' content={meta.date} />
         )}
       </Head>
-      {/* 
+
       <Header
-        mounted={mounted}
-        setMounted={setMounted}
-        theme={theme}
-        setTheme={setTheme}
-      /> */}
+      // mounted={mounted}
+      // setMounted={setMounted}
+      // theme={theme}
+      // setTheme={setTheme}
+      />
 
       <main
         id='skip'
