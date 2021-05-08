@@ -180,22 +180,31 @@ export default function Container(props) {
                   <nav>
                     <ul class='space-y-4'>
                       <li>
-                        <Link href='/'>
-                          <a className='p-1 sm:p-4 text-gray-900 dark:text-gray-100'>
+                        <Link href='/' onClick={() => setIsMenuOpen(false)}>
+                          <a
+                            className='p-1 sm:p-4 text-gray-900 dark:text-gray-100'
+                            onClick={() => setIsMenuOpen(false)}
+                          >
                             Home
                           </a>
                         </Link>
                       </li>
                       <li>
                         <Link href='/about'>
-                          <a className='p-1 sm:p-4 text-gray-900 dark:text-gray-100'>
+                          <a
+                            className='p-1 sm:p-4 text-gray-900 dark:text-gray-100'
+                            onClick={() => setIsMenuOpen(false)}
+                          >
                             About
                           </a>
                         </Link>
                       </li>
                       <li>
                         <Link href='/blog'>
-                          <a className='p-1 sm:p-4 text-gray-900 dark:text-gray-100'>
+                          <a
+                            className='p-1 sm:p-4 text-gray-900 dark:text-gray-100'
+                            onClick={() => setIsMenuOpen(false)}
+                          >
                             Blog
                           </a>
                         </Link>
