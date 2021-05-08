@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
 import Footer from '@components/Footer';
 import Link from 'next/link';
+import Header from './Header';
 
 // import Footer from '@/components/Footer';
 
@@ -45,7 +46,7 @@ export default function Container(props) {
           <meta property='article:published_time' content={meta.date} />
         )}
       </Head>
-      <nav className='sticky-nav flex justify-between items-center max-w-4xl w-full p-8 my-0 md:my-8 mx-auto bg-white dark:bg-black bg-opacity-60'>
+      {/* <nav className='sticky-nav flex justify-between items-center max-w-4xl w-full p-8 my-0 md:my-8 mx-auto bg-white dark:bg-black bg-opacity-60'>
         <div>
           <Link href='/'>
             <a className='p-1 sm:p-4 text-gray-900 dark:text-gray-100'>Home</a>
@@ -90,7 +91,14 @@ export default function Container(props) {
             </svg>
           )}
         </button>
-      </nav>
+      </nav> */}
+
+      <Header
+        mounted={mounted}
+        setMounted={setMounted}
+        theme={theme}
+        setTheme={setTheme}
+      />
 
       <main
         id='skip'

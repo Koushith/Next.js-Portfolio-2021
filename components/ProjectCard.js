@@ -65,7 +65,7 @@ export default function ProjectCard({ title, description, href, icon }) {
           <h4 className='text-lg font-bold tracking-tight text-gray-900 dark:text-gray-100'>
             {title}
           </h4>
-          <p className='leading-5 text-gray-700 dark:text-gray-300'>
+          <p className='leading-5 text-gray-700 dark:text-gray-400 mt-2'>
             {description}
           </p>
         </div>
