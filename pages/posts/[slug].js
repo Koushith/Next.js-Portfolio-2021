@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import BlogLayout from '../../components/BlogLayout';
 const CONTENT_API_KEY = '47225b98eaa1d61ea1463d34c0';
@@ -42,7 +42,7 @@ export const getStaticPaths = () => {
 const Post = (props) => {
   const { post } = props;
 
-  const [enableLoadComments, setEnableLoadComments] = useState(true);
+  const [enableLoadComments, setEnableLoadComments] = useState(false);
 
   const router = useRouter();
 
@@ -58,27 +58,16 @@ const Post = (props) => {
     };
 
     const script = document.createElement('script');
-    script.src = 'https://ghostcms-nextjs.disqus.com/embed.js';
+    s.src = 'https://koushith-blog.disqus.com/embed.js';
     script.setAttribute('data-timestamp', Date.now().toString());
 
     document.body.appendChild(script);
   }
 
   return (
-    // <div>
-    //   <h1>{post.title}</h1>
-    //   <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
-
-    //   {enableLoadComments && <p onClick={loadComments}>Load Comments</p>}
-
-    //   <div id='disqus_thread'></div>
-    // </div>
-
     <>
-      {/* <BlogLayout post={post} /> */}
       <article className='flex flex-col justify-center items-start max-w-2xl mx-auto mb-16 w-full'>
         <h1 className='font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white'>
-          {/* {frontMatter.title} */}
           {post.title}
         </h1>
         <div className='flex flex-col md:flex-row justify-between items-start md:items-center w-full mt-2'>
@@ -91,7 +80,6 @@ const Post = (props) => {
               className='rounded-full'
             />
             <p className='text-sm text-gray-700 dark:text-gray-300 ml-2'>
-              {/* {post.published_at} */}
               {new Date(post.published_at).toDateString()}
             </p>
           </div>
@@ -108,7 +96,10 @@ const Post = (props) => {
         <div className='mt-8'>{/* <Subscribe /> */}</div>
         <div className='text-sm text-gray-700 dark:text-gray-300'>
           {enableLoadComments && <p onClick={loadComments}>Load Comments</p>}
-          <div style={{ width: '100% ', margin: '20px 0' }}></div>
+          <div
+            style={{ width: '100% ', margin: '20px 0' }}
+            id='disqus_thread'
+          ></div>
         </div>
       </article>
     </>

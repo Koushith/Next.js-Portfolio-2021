@@ -15,7 +15,7 @@ export default function Footer() {
   return (
     <>
       <hr className='w-full border-1 border-gray-200 dark:border-gray-800 mb-8' />
-      {/* <footer class=' pt-10 sm:mt-10 pt-10'>
+      <footer class=' pt-10 sm:mt-10 pt-10'>
         <div class='max-w-6xl m-auto text-gray-800 flex flex-wrap justify-center'>
           <div class='p-5 w-1/2 sm:w-4/12 md:w-3/12'>
             <div class='text-xs uppercase text-gray-400  hover:text-gray-900  font-medium mb-6'>
@@ -108,7 +108,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-      </footer> */}
+      </footer>
     </>
   );
 }
