@@ -6,7 +6,7 @@ import Layout from '../components/Layout';
 // import BlogPost from '../components/BlogPost';
 // import Subscribe from '../components/Subscribe';
 import ProjectCard from '../components/ProjectCard';
-//import { Skills } from '@components/Skills';
+// import { Skills } from '@components/Skills';
 
 export default function Home() {
   return (
