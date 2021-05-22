@@ -6,6 +6,7 @@ import Layout from '../components/Layout';
 // import BlogPost from '../components/BlogPost';
 // import Subscribe from '../components/Subscribe';
 import ProjectCard from '../components/ProjectCard';
+//import { Skills } from '@components/Skills';
 
 export default function Home() {
   return (
@@ -25,6 +26,8 @@ export default function Home() {
           Contact
         </button>
       </div> */}
+
+      {/* <Skills /> */}
 
       <h3 className='font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white'>
         Projects
