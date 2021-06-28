@@ -1,4 +1,8 @@
-# Next.js demo for Geist UI React
+# My Space on web -lol
+
+## Portfolio website built using NextJS, GhostAPI and TailwindCSS
+
+https://www.loom.com/share/f664000425144266901342c2657112c7
 
 ## About
 
