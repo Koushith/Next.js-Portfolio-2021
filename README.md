@@ -2,6 +2,9 @@
 
 ## Portfolio website built using NextJS, GhostAPI and TailwindCSS
 
+![image](https://user-images.githubusercontent.com/30016242/126783777-3600ac9d-db93-483f-8b7b-dff6ba373769.png)
+
+
 https://www.loom.com/share/f664000425144266901342c2657112c7
 
 ## About
