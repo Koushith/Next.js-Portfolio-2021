@@ -17,8 +17,8 @@ export default function Container(props) {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: 'Koushith Amin – Developer, writer, creator.',
-    description: `UX Engineer, Hobbyist designer, developer and Tech Blogger`,
+    title: 'Koushith Amin – Developer, writer, UI Designer.',
+    description: `UX Engineer, Hobbyist Designer, developer and Tech Blogger`,
     image: 'https://koushith.in/static/avatar.jpg',
     type: 'website',
     ...customMeta,
@@ -30,10 +30,7 @@ export default function Container(props) {
         <title>{meta.title}</title>
         <meta name='robots' content='follow, index' />
         <meta content={meta.description} name='description' />
-        <meta
-          property='og:url'
-          content={`https://koushith.in${router.asPath}`}
-        />
+        <meta property='og:url' content={`https://koushith.in${router.asPath}`} />
         <link rel='canonical' href={`https://koushith.in${router.asPath}`} />
         <meta property='og:type' content={meta.type} />
         <meta property='og:site_name' content='Koushith Amin' />
@@ -45,9 +42,7 @@ export default function Container(props) {
         <meta name='twitter:title' content={meta.title} />
         <meta name='twitter:description' content={meta.description} />
         <meta name='twitter:image' content={meta.image} />
-        {meta.date && (
-          <meta property='article:published_time' content={meta.date} />
-        )}
+        {meta.date && <meta property='article:published_time' content={meta.date} />}
       </Head>
       <nav className='sticky-nav flex justify-between items-center max-w-4xl w-full p-8 my-0 md:my-8 mx-auto bg-white dark:bg-black bg-opacity-60'>
         <a href='#skip' className='sr-only focus:not-sr-only'>
@@ -97,10 +92,7 @@ export default function Container(props) {
           </Link>
         </div>
       </nav>
-      <main
-        id='skip'
-        className='flex flex-col justify-center bg-white dark:bg-black px-8'
-      >
+      <main id='skip' className='flex flex-col justify-center bg-white dark:bg-black px-8'>
         {children}
         {/* <Footer /> */}
       </main>

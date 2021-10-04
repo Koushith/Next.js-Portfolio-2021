@@ -15,8 +15,8 @@ export default function Home() {
         Hey, I’m Koushith Amin
       </h1>
       <h2 className='prose text-gray-600 dark:text-gray-400 mb-6'>
-        I’m a Frontend Engineer and Visual Designer, living in Bengaluru. I'm
-        currently building next generation DApps at Consenso Labs.
+        I’m a Frontend Engineer and Visual Designer, living in Bengaluru. I'm currently building next generation DApps
+        at Consenso Labs.
       </h2>
       {/* <div className='flex space-x-4'>
         <button className='flex items-center justify-center px-4 py-2  bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-gray-100 rounded  '>
@@ -29,9 +29,7 @@ export default function Home() {
 
       {/* <Skills /> */}
 
-      <h3 className='font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white'>
-        Projects
-      </h3>
+      <h3 className='font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white'>Projects</h3>
       <ProjectCard
         title='Portex'
         description='Secure crypto portfolio management and exchange application. Portex was on of the top 20 Projects for Celebrity Judging at the ETHDenver hackathon 2021 🏆'
@@ -52,7 +50,7 @@ export default function Home() {
       />
       <ProjectCard
         title='Periple'
-        description='Periple- Online Dairy App -UI/UX Case Study. it was a part of 7days of Figma challange created while learning UI Design'
+        description='Periple- Online Dairy App -UI/UX Case Study. it was a part of 7days of Figma challenge created while learning UI Design'
         href='https://koushith.netlify.app/blog05.html'
         icon='nextjs'
       />

@@ -35,23 +35,18 @@ const Talk = ({ title, link, children }) => (
 export default function About() {
   return (
     <div className='flex flex-col justify-center items-start max-w-2xl mx-auto mb-16'>
-      <h1 className='font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white'>
-        About Me
-      </h1>
+      <h1 className='font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white'>About Me</h1>
       <div className='mb-8 prose leading-6 text-gray-600 dark:text-gray-400'>
         <p>Hello, everyone ✋</p>
         <p style={{ textDecoration: 'line-through' }}>
           {' '}
-          I'm a software developer living in Bangalore, India. I love to build
-          and design things. I have experience in creating cross-platform
-          desktop applications, website backends, user experience, and visual
-          design. I have worked extensively in teams and alone.
+          I'm a software developer living in Bangalore, India. I love to build and design things. I have experience in
+          creating cross-platform desktop applications, website backends, user experience, and visual design. I have
+          worked extensively in teams and alone.
         </p>{' '}
         <p>
-          WTF? Sound human Koushith. Okay, here you go. Huh, so you're
-          interested in knowing more about me? The first thing I should mention
-          that I don't have any unique talents. I consider myself pretty
-          average.
+          WTF? Sound human Koushith. Okay, here you go. Huh, so you're interested in knowing more about me? The first
+          thing I should mention that I don't have any unique talents. I consider myself pretty average.
         </p>
         <p>
           <b>My two life principles are -</b>
@@ -62,21 +57,14 @@ export default function About() {
           </ul>
         </p>
         <p>
-          That's how I have achieved whatever you see so far. Born in a small
-          Village in Kodagu also known as (Coorg- Scotland of India), I have
-          humble beginnings. Until 2016, the only thing I knew about computers
-          was that it was invented by a guy named Charles or something..From
-          there, I have taught myself everything. I'm still learning. I still
-          have to Google the basic stuff like adding inline CSS in HTML :p.
+          That's how I have achieved whatever you see so far. Born in a small Village in Kodagu also known as (Coorg-
+          Scotland of India), I have humble beginnings. Until 2016, the only thing I knew about computers was that it
+          was invented by a guy named Charles or something..From there, I have taught myself everything. I'm still
+          learning. I still have to Google the basic stuff like adding inline CSS in HTML :p.
         </p>{' '}
       </div>
-      <h2 className='font-bold text-3xl tracking-tight mb-4 text-black dark:text-white'>
-        Conference Talks
-      </h2>
-      <Talk
-        title='Intro to Figma'
-        link='https://www.youtube.com/watch?v=Sz7SImkdIpo&fe3'
-      >
+      <h2 className='font-bold text-3xl tracking-tight mb-4 text-black dark:text-white'>Conference Talks</h2>
+      <Talk title='Intro to Figma' link='https://twitter.com/koushith'>
         Workshop on intro to UI Design using Figma.
       </Talk>
     </div>
