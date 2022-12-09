@@ -34,7 +34,8 @@ export default function Blog(props) {
       </h1>
       <p className="text-gray-600 dark:text-gray-400 mb-4">
         I've been writing online since 2020, mostly about web development and
-        personal mental health. In total, I've written 8 articles on this site.
+        other life experiences. In total, I've written {posts?.length} articles
+        on this site.
       </p>
 
       <div className="relative w-full mb-4">

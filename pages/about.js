@@ -42,7 +42,7 @@ export default function About() {
         <p>Hello, everyone ✋</p>
         <p style={{ textDecoration: "line-through" }}>
           {" "}
-          I'm a software Engineer living in Bangalore, India. I love to build
+          I'm a Software Engineer living in Bangalore, India. I love to build
           and design things. I have experience in creating cross-platform
           desktop applications, website backends, user experience, and visual
           design. I have worked extensively in teams and alone.
@@ -63,7 +63,7 @@ export default function About() {
         </p>
         <p>
           That's how I have achieved whatever you see so far. Born in a small
-          Village in Kodagu also known as (Coorg- Scotland of India), I have
+          village in Kodagu also known as (Coorg- Scotland of India), I have
           humble beginnings. Until 2016, the only thing I knew about computers
           was that it was invented by a guy named Charles or something..From
           there, I have taught myself everything. I'm still learning. I still
