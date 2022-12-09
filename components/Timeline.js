@@ -41,6 +41,81 @@ const Step = ({ title, children }) => {
 
 const FullTimeline = () => (
   <>
+    <Year>2021</Year>
+
+    <ul>
+      <Step
+        title="Safient Protocol - POC for Recovery and inheritance of Crypto Assets -
+          May 2021"
+      >
+        Safient Protocol - POC for Recovery and inheritance of Crypto Assets -
+        May 2021
+        <Link href="https://portex.xyz/">
+          <a target="_next" className="text-blue-900">
+            Portex
+          </a>
+        </Link>{" "}
+        <Link href="https://github.com/koshikraj/portex">
+          <a target="_next" className="text-blue-900">
+            Dora Hacks hackathon.
+          </a>
+        </Link>
+        🎉 🎊.
+      </Step>
+    </ul>
+    <Divider />
+    <ul>
+      <Step title="Second Hackathon @EthDenver- Feb 5th-9th 2021">
+        ETHDenver is the world’s largest annual web3 #BUIDLathon. we hacked
+        <Link href="https://portex.xyz/">
+          <a target="_next" className="text-blue-900">
+            Portex
+          </a>
+        </Link>{" "}
+        -Secure crypto portfolio management and exchange Application. Portex has
+        bagged 3 sponsor prizes during the.
+        <Link href="https://github.com/koshikraj/portex">
+          <a target="_next" className="text-blue-900">
+            ETHDenver hackathon.
+          </a>
+        </Link>
+        🎉 🎊.
+      </Step>
+    </ul>
+    <Divider />
+
+    <Year>2020</Year>
+    <ul>
+      <Step title="First Design Workshop- November 2020.">
+        Conducted a workshop on Intro to UI design using Figma for Bchain
+        Dynamics Students.
+      </Step>
+      <Step title="First Hackathon @EthGlobal- October 2020">
+        Participated in ETHOnline hackathon and built SignChain - A Digital
+        signing platform for legal documents along with my colleagues. Signchain
+        has bagged 2 sponsor prizes during the{" "}
+        <Link href="https://github.com/signchain/core">
+          <a target="_next" className="text-blue-900">
+            EthOnline hackathon
+          </a>
+        </Link>
+        🎉 🎊.
+      </Step>
+      <Step title="First PR Merge- August 2020">
+        {" "}
+        It's absolutely a satisfying feeling to get that "merge notification". I
+        had my first PR to a Org repo merged.
+      </Step>
+      <Step title="Joined Consenso Labs - July 7th-2020.">
+        I'm excited to join Consenso Labs as a Founding Team member. also this
+        is my First Dev Job.
+      </Step>
+      <Step title="Left Infosys Limited - 2019 May to July-2020.">
+        Left my stable job at MNC to work for Early Stage startup. i always
+        wanted to be a part of early stage startup.
+      </Step>
+    </ul>
+    <Divider />
     <Year>2019</Year>
     <ul>
       <Step title="First Solo Trip -Nov 11th 2019✨">
@@ -111,64 +186,9 @@ export default function Timeline() {
         </Step>
       </ul>
       <Divider />
-      <ul>
-        <Step title="Hyderabad Trip">
-          Safient Protocol - POC for Recovery and inheritance of Crypto Assets -
-          May 2021
-          <Link href="https://portex.xyz/">
-            <a target="_next" className="text-blue-900">
-              Portex
-            </a>
-          </Link>{" "}
-          <Link href="https://github.com/koshikraj/portex">
-            <a target="_next" className="text-blue-900">
-              Dora Hacks hackathon.
-            </a>
-          </Link>
-          🎉 🎊.
-        </Step>
-      </ul>
-      <Divider />
 
-      <ul>
-        <Step title="Coimbatore ISHA Foundation Trip">
-          Safient Protocol - POC for Recovery and inheritance of Crypto Assets -
-          May 2021
-          <Link href="https://portex.xyz/">
-            <a target="_next" className="text-blue-900">
-              Portex
-            </a>
-          </Link>{" "}
-          <Link href="https://github.com/koshikraj/portex">
-            <a target="_next" className="text-blue-900">
-              Dora Hacks hackathon.
-            </a>
-          </Link>
-          🎉 🎊.
-        </Step>
-      </ul>
-      <Divider />
       <ul>
         <Step title="Relocated to Bangalore">
-          Safient Protocol - POC for Recovery and inheritance of Crypto Assets -
-          May 2021
-          <Link href="https://portex.xyz/">
-            <a target="_next" className="text-blue-900">
-              Portex
-            </a>
-          </Link>{" "}
-          <Link href="https://github.com/koshikraj/portex">
-            <a target="_next" className="text-blue-900">
-              Dora Hacks hackathon.
-            </a>
-          </Link>
-          🎉 🎊.
-        </Step>
-      </ul>
-      <Divider />
-
-      <ul>
-        <Step title="Cochin & Allapey Trip">
           Safient Protocol - POC for Recovery and inheritance of Crypto Assets -
           May 2021
           <Link href="https://portex.xyz/">
@@ -238,82 +258,6 @@ export default function Timeline() {
             </a>
           </Link>
           🎉 🎊.
-        </Step>
-      </ul>
-      <Divider />
-
-      <Year>2021</Year>
-
-      <ul>
-        <Step
-          title="Safient Protocol - POC for Recovery and inheritance of Crypto Assets -
-          May 2021"
-        >
-          Safient Protocol - POC for Recovery and inheritance of Crypto Assets -
-          May 2021
-          <Link href="https://portex.xyz/">
-            <a target="_next" className="text-blue-900">
-              Portex
-            </a>
-          </Link>{" "}
-          <Link href="https://github.com/koshikraj/portex">
-            <a target="_next" className="text-blue-900">
-              Dora Hacks hackathon.
-            </a>
-          </Link>
-          🎉 🎊.
-        </Step>
-      </ul>
-      <Divider />
-      <ul>
-        <Step title="Second Hackathon @EthDenver- Feb 5th-9th 2021">
-          ETHDenver is the world’s largest annual web3 #BUIDLathon. we hacked
-          <Link href="https://portex.xyz/">
-            <a target="_next" className="text-blue-900">
-              Portex
-            </a>
-          </Link>{" "}
-          -Secure crypto portfolio management and exchange Application. Portex
-          has bagged 3 sponsor prizes during the.
-          <Link href="https://github.com/koshikraj/portex">
-            <a target="_next" className="text-blue-900">
-              ETHDenver hackathon.
-            </a>
-          </Link>
-          🎉 🎊.
-        </Step>
-      </ul>
-      <Divider />
-
-      <Year>2020</Year>
-      <ul>
-        <Step title="First Design Workshop- November 2020.">
-          Conducted a workshop on Intro to UI design using Figma for Bchain
-          Dynamics Students.
-        </Step>
-        <Step title="First Hackathon @EthGlobal- October 2020">
-          Participated in ETHOnline hackathon and built SignChain - A Digital
-          signing platform for legal documents along with my colleagues.
-          Signchain has bagged 2 sponsor prizes during the{" "}
-          <Link href="https://github.com/signchain/core">
-            <a target="_next" className="text-blue-900">
-              EthOnline hackathon
-            </a>
-          </Link>
-          🎉 🎊.
-        </Step>
-        <Step title="First PR Merge- August 2020">
-          {" "}
-          It's absolutely a satisfying feeling to get that "merge notification".
-          I had my first PR to a Org repo merged.
-        </Step>
-        <Step title="Joined Consenso Labs - July 7th-2020.">
-          I'm excited to join Consenso Labs as a Founding Team member. also this
-          is my First Dev Job.
-        </Step>
-        <Step title="Left Infosys Limited - 2019 May to July-2020.">
-          Left my stable job at MNC to work for Early Stage startup. i always
-          wanted to be a part of early stage startup.
         </Step>
       </ul>
       <Divider />
