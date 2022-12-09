@@ -85,7 +85,7 @@ export default function Footer() {
             border-t border-gray-500 text-gray-400 text-sm 
             flex-col md:flex-row max-w-6xl"
           >
-            <div class="mt-2">
+            <div class="mt-2 text-center">
               © {new Date().getFullYear()}. Built with Next.js and TailwindCSS.
               Portfolio inspired by Lee Robinson.
             </div>
