@@ -83,14 +83,15 @@ export default function Container(props) {
                   Blog
                 </a>
               </Link>
+            </li>
 
+            <li>
               <a
                 href=" https://drive.google.com/file/d/1ffvD0Klz212Unr2qUpgkvCfoK3fgKvSH/view?usp=share_link"
                 target="_blank"
+                className="p-1 sm:p-4 text-gray-900 dark:text-gray-100"
               >
-                <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">
-                  Resume
-                </a>
+                Resume
               </a>
             </li>
 
@@ -218,7 +219,15 @@ export default function Container(props) {
                           </a>
                         </Link>
                       </li>
-
+                      <li>
+                        <a
+                          href=" https://drive.google.com/file/d/1ffvD0Klz212Unr2qUpgkvCfoK3fgKvSH/view?usp=share_link"
+                          target="_blank"
+                          className="p-1 sm:p-4 text-gray-900 dark:text-gray-100"
+                        >
+                          Resume
+                        </a>
+                      </li>
                       <li>
                         <button
                           aria-label="Toggle Dark Mode"
