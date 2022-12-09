@@ -243,25 +243,6 @@ export default function Timeline() {
       </ul>
       <Divider />
 
-      <ul>
-        <Step title="Pondychery Trip">
-          Safient Protocol - POC for Recovery and inheritance of Crypto Assets -
-          May 2021
-          <Link href="https://portex.xyz/">
-            <a target="_next" className="text-blue-900">
-              Portex
-            </a>
-          </Link>{" "}
-          <Link href="https://github.com/koshikraj/portex">
-            <a target="_next" className="text-blue-900">
-              Dora Hacks hackathon.
-            </a>
-          </Link>
-          🎉 🎊.
-        </Step>
-      </ul>
-      <Divider />
-
       {isShowingFullTimeline ? (
         <FullTimeline />
       ) : (

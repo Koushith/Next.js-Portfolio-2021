@@ -37,14 +37,14 @@ export default function Home() {
 
       <ProjectCard
         title="Ben Wallet"
-        description="Secure crypto portfolio management and exchange application. Portex was on of the top 20 Projects for Celebrity Judging at the ETHDenver hackathon 2021 🏆"
-        href="https://github.com/koshikraj/portex"
+        description="Event-based conditional wallet account recovery. Implementation of contracts for ERC 4337 account abstraction via alternative mempool.  "
+        href="https://devfolio.co/projects/ben-wallet-cf3a"
         icon="nextjs"
       />
       <ProjectCard
         title="Safient Guardians"
-        description="Secure crypto portfolio management and exchange application. Portex was on of the top 20 Projects for Celebrity Judging at the ETHDenver hackathon 2021 🏆"
-        href="https://github.com/koshikraj/portex"
+        description="Recovery option on Argent-x wallet extension. built at StarkNect CC Hackathon. "
+        href="https://devfolio.co/projects/safient-guardians-deed"
         icon="nextjs"
       />
       <ProjectCard
@@ -55,13 +55,13 @@ export default function Home() {
       />
       <ProjectCard
         title="Safient Protocol"
-        description="At Safient we strive to make digital self-custody safe and convenient and help preserve your digital legacy."
+        description="Manage your crypto secrets securely and conveniently that help you or your beneficiaries to claim crypto assets without intermediaries. Built at DoraHacks Hackathon "
         href="https://dorahacks.io/buidl/568"
         icon="nextjs"
       />
       <ProjectCard
         title="Ketch"
-        description="Fully functional ECommerce store developed using MERN Stack. fully inspired by Myntra Design"
+        description="Fully functional Ecom store developed using MERN Stack. designs are inspired by Myntra. "
         href="https://github.com/Koushith/Ketch-Store"
         icon="nextjs"
       />
