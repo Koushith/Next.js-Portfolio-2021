@@ -151,44 +151,21 @@ export default function Timeline() {
       <Year>2022</Year>
 
       <ul>
-        <Step title="ETHIndia Hackathon">
+        <Step title="ETHIndia Hackathon - Dec 2nd to 4th.">
           Safient Protocol - POC for Recovery and inheritance of Crypto Assets -
           May 2021
           <Link href="https://portex.xyz/">
-            <a target="_next" className="text-blue-900">
-              Portex
-            </a>
+            <a target="_next">Portex</a>
           </Link>{" "}
           <Link href="https://github.com/koshikraj/portex">
-            <a target="_next" className="text-blue-900">
-              Dora Hacks hackathon.
-            </a>
+            <a target="_next">Dora Hacks hackathon.</a>
           </Link>
           🎉 🎊.
         </Step>
       </ul>
       <Divider />
       <ul>
-        <Step title="Starknet Hackathon">
-          Safient Protocol - POC for Recovery and inheritance of Crypto Assets -
-          May 2021
-          <Link href="https://portex.xyz/">
-            <a target="_next" className="text-blue-900">
-              Portex
-            </a>
-          </Link>{" "}
-          <Link href="https://github.com/koshikraj/portex">
-            <a target="_next" className="text-blue-900">
-              Dora Hacks hackathon.
-            </a>
-          </Link>
-          🎉 🎊.
-        </Step>
-      </ul>
-      <Divider />
-
-      <ul>
-        <Step title="Relocated to Bangalore">
+        <Step title="Starknet Hackathon - 30th Nov - 1st Dec.">
           Safient Protocol - POC for Recovery and inheritance of Crypto Assets -
           May 2021
           <Link href="https://portex.xyz/">
@@ -207,7 +184,15 @@ export default function Timeline() {
       <Divider />
 
       <ul>
-        <Step title="Ineuron Hackathon">
+        <Step title="Relocated to Bangalore - July">
+          Safient Protocol - POC for Recovery and inheritance of Crypto Assets -
+          May 2021
+        </Step>
+      </ul>
+      <Divider />
+
+      <ul>
+        <Step title="Ineuron Hackathon - June 12th ">
           Safient Protocol - POC for Recovery and inheritance of Crypto Assets -
           May 2021
           <Link href="https://portex.xyz/">
@@ -225,7 +210,7 @@ export default function Timeline() {
       </ul>
       <Divider />
       <ul>
-        <Step title="Safient Wallet">
+        <Step title="Safient Wallet- EthDenver Hackathon - March 2nd - 5th">
           Safient Protocol - POC for Recovery and inheritance of Crypto Assets -
           May 2021
           <Link href="https://portex.xyz/">

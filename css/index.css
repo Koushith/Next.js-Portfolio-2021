@@ -47,6 +47,10 @@ figure {
   width: 100%;
 }
 
+a {
+  color: #60a5fa;
+}
+
 iframe {
   width: 100%;
   min-height: 350px;
