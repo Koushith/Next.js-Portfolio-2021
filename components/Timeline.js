@@ -63,7 +63,7 @@ const FullTimeline = () => (
         🎉 🎊.
       </Step>
     </ul>
-    <Divider />
+
     <ul>
       <Step title="Second Hackathon @EthDenver- Feb 5th-9th 2021">
         ETHDenver is the world’s largest annual web3 #BUIDLathon. we hacked
@@ -163,7 +163,7 @@ export default function Timeline() {
           🎉 🎊.
         </Step>
       </ul>
-      <Divider />
+
       <ul>
         <Step title="Starknet Hackathon - 30th Nov - 1st Dec.">
           Event based conditional account recovery wallet built on top of
@@ -173,7 +173,6 @@ export default function Timeline() {
           </Link>{" "}
         </Step>
       </ul>
-      <Divider />
 
       <ul>
         <Step title="Ineuron Hackathon - June 12th ">
@@ -181,14 +180,12 @@ export default function Timeline() {
           developers along the way.
         </Step>
       </ul>
-      <Divider />
 
       <ul>
         <Step title="Relocated to Bangalore - July">
           Finally moved in. City of Doers, Believers and Dreamers.
         </Step>
       </ul>
-      <Divider />
 
       <ul>
         <Step title="Safient Wallet- EthDenver Hackathon - March 2nd - 5th">
