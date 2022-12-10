@@ -152,13 +152,13 @@ export default function Timeline() {
 
       <ul>
         <Step title="ETHIndia Hackathon - Dec 2nd to 4th.">
-          Safient Protocol - POC for Recovery and inheritance of Crypto Assets -
-          May 2021
+          At ETHIndia hackathon, we built an wallet that has recovery option
+          just in case if you loose access to your private keys.
           <Link href="https://portex.xyz/">
-            <a target="_next">Portex</a>
+            <a target="_next">Ben Wallet</a>
           </Link>{" "}
           <Link href="https://github.com/koshikraj/portex">
-            <a target="_next">Dora Hacks hackathon.</a>
+            <a target="_next"> GitHub.</a>
           </Link>
           🎉 🎊.
         </Step>
@@ -166,64 +166,39 @@ export default function Timeline() {
       <Divider />
       <ul>
         <Step title="Starknet Hackathon - 30th Nov - 1st Dec.">
-          Safient Protocol - POC for Recovery and inheritance of Crypto Assets -
-          May 2021
-          <Link href="https://portex.xyz/">
-            <a target="_next" className="text-blue-900">
-              Portex
-            </a>
+          Event based conditional account recovery wallet built on top of
+          ArgentX wallet.
+          <Link href="https://devfolio.co/projects/safient-guardians-deed">
+            <a target="_next">Safient Guardians</a>
           </Link>{" "}
-          <Link href="https://github.com/koshikraj/portex">
-            <a target="_next" className="text-blue-900">
-              Dora Hacks hackathon.
-            </a>
-          </Link>
-          🎉 🎊.
         </Step>
       </ul>
       <Divider />
 
       <ul>
         <Step title="Relocated to Bangalore - July">
-          Safient Protocol - POC for Recovery and inheritance of Crypto Assets -
-          May 2021
+          Finally moved in. City of Doers, Believers and Dreamers.
         </Step>
       </ul>
       <Divider />
 
       <ul>
         <Step title="Ineuron Hackathon - June 12th ">
-          Safient Protocol - POC for Recovery and inheritance of Crypto Assets -
-          May 2021
-          <Link href="https://portex.xyz/">
-            <a target="_next" className="text-blue-900">
-              Portex
-            </a>
-          </Link>{" "}
-          <Link href="https://github.com/koshikraj/portex">
-            <a target="_next" className="text-blue-900">
-              Dora Hacks hackathon.
-            </a>
-          </Link>
-          🎉 🎊.
+          This was my first Offline Hackathon. had lot of fun and met amaizing
+          developers along the way.
         </Step>
       </ul>
       <Divider />
       <ul>
         <Step title="Safient Wallet- EthDenver Hackathon - March 2nd - 5th">
-          Safient Protocol - POC for Recovery and inheritance of Crypto Assets -
-          May 2021
-          <Link href="https://portex.xyz/">
-            <a target="_next" className="text-blue-900">
-              Portex
-            </a>
+          Non-custodial recoverable and inheritable wallets by claiming them at
+          the right time with ease and security. - Won 3 bounties 🎉 🎊.
+          <Link href="https://dorahacks.io/buidl/2222">
+            <a target="_next">Safient Wallet</a>
           </Link>{" "}
-          <Link href="https://github.com/koshikraj/portex">
-            <a target="_next" className="text-blue-900">
-              Dora Hacks hackathon.
-            </a>
+          <Link href="https://github.com/safient/wallet">
+            <a target="_next">Dora Hacks hackathon.</a>
           </Link>
-          🎉 🎊.
         </Step>
       </ul>
       <Divider />
