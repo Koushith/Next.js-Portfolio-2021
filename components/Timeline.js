@@ -176,19 +176,20 @@ export default function Timeline() {
       <Divider />
 
       <ul>
-        <Step title="Relocated to Bangalore - July">
-          Finally moved in. City of Doers, Believers and Dreamers.
-        </Step>
-      </ul>
-      <Divider />
-
-      <ul>
         <Step title="Ineuron Hackathon - June 12th ">
           This was my first Offline Hackathon. had lot of fun and met amaizing
           developers along the way.
         </Step>
       </ul>
       <Divider />
+
+      <ul>
+        <Step title="Relocated to Bangalore - July">
+          Finally moved in. City of Doers, Believers and Dreamers.
+        </Step>
+      </ul>
+      <Divider />
+
       <ul>
         <Step title="Safient Wallet- EthDenver Hackathon - March 2nd - 5th">
           Non-custodial recoverable and inheritable wallets by claiming them at
