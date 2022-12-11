@@ -79,7 +79,7 @@ const FullTimeline = () => (
             ETHDenver hackathon.
           </a>
         </Link>
-        🎉 🎊.
+        🎉 🎊
       </Step>
     </ul>
     <Divider />
