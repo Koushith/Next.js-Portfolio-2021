@@ -39,7 +39,7 @@ export default function About() {
         About Me
       </h1>
       <div className="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
-        <p>Hello, everyone ✋</p>
+        {/* <p>Hello, everyone ✋</p>
         <p style={{ textDecoration: "line-through" }}>
           {" "}
           I'm a Software Engineer living in Bangalore, India. I love to build
@@ -68,7 +68,8 @@ export default function About() {
           was that it was invented by a guy named Charles or something..From
           there, I have taught myself everything. I'm still learning. I still
           have to Google the basic stuff like adding inline CSS in HTML :p.
-        </p>{" "}
+        </p>{" "} */}
+        <p>TBU...</p>
       </div>
       <h2 className="font-bold text-3xl tracking-tight mb-4 text-black dark:text-white">
         Conference Talks
