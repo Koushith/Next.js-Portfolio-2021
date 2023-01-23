@@ -5,10 +5,10 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import BlogLayout from "../../components/BlogLayout";
-const CONTENT_API_KEY = "f1801865dd6661863fa1d51f7f";
+const CONTENT_API_KEY = "4a73d91788e9613b62a8310488";
 async function getPost(slug) {
   const res = await fetch(
-    `https://ghost-production-824b.up.railway.app/ghost/api/v3/content/posts/slug/${slug}?key=${CONTENT_API_KEY}&fields=title,slug,html,feature_image,published_at,reading_time`
+    `https://koushith.digitalpress.blog/ghost/api/v3/content/posts/slug/${slug}?key=${CONTENT_API_KEY}&fields=title,slug,html,feature_image,published_at,reading_time`
   ).then((res) => res.json());
 
   console.log(res, "res");

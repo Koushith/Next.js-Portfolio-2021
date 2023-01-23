@@ -2,13 +2,13 @@ import { useState } from "react";
 
 import BlogPost from "../components/BlogPost";
 
-const CONTENT_API_KEY = "f1801865dd6661863fa1d51f7f";
+const CONTENT_API_KEY = "4a73d91788e9613b62a8310488";
 
 async function getPosts() {
   // "https://demo.ghost.io/ghost/api/v3/content/posts/?key=22444f78447824223cefc48062"
 
   const res = await fetch(
-    `https://ghost-production-824b.up.railway.app/ghost/api/v3/content/posts/?key=${CONTENT_API_KEY}&fields=title,slug,custom_excerpt,published_at`
+    `https://koushith.digitalpress.blog/ghost/api/v3/content/posts/?key=${CONTENT_API_KEY}&fields=title,slug,custom_excerpt,published_at`
   ).then((res) => res.json());
 
   const posts = res.posts;
